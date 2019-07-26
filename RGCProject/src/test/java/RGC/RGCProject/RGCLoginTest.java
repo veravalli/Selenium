@@ -43,7 +43,10 @@ public class RGCLoginTest {
 	  new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlPayment']"))).selectByVisibleText("20");
 	  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	  driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_btnSubmit']")).click();
-	  logger.info("Recharge page");
+	  logger.info("Recharge Confirmation page");
+	  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+	  driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_btnConfirm']")).click();
+	  
   }
   
   @BeforeTest

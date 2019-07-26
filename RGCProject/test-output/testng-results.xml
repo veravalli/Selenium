@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33525" started-at="2019-07-23T07:50:01Z" finished-at="2019-07-23T07:50:35Z">
+  <suite name="Default suite" duration-ms="44905" started-at="2019-07-23T13:02:27Z" finished-at="2019-07-23T13:03:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33525" started-at="2019-07-23T07:50:01Z" finished-at="2019-07-23T07:50:35Z">
+    <test name="Default test" duration-ms="44905" started-at="2019-07-23T13:02:27Z" finished-at="2019-07-23T13:03:12Z">
       <class name="RGC.RGCProject.RGCLoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:RGC.RGCProject.RGCLoginTest@1a968a59]" name="beforeTest" is-config="true" duration-ms="8139" started-at="2019-07-23T07:50:01Z" finished-at="2019-07-23T07:50:09Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:RGC.RGCProject.RGCLoginTest@78c03f1f]" name="beforeTest" is-config="true" duration-ms="10063" started-at="2019-07-23T13:02:27Z" finished-at="2019-07-23T13:02:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="RGC_Login()[pri:0, instance:RGC.RGCProject.RGCLoginTest@1a968a59]" name="RGC_Login" duration-ms="12793" started-at="2019-07-23T07:50:09Z" finished-at="2019-07-23T07:50:22Z">
+        <test-method status="PASS" signature="RGC_Login()[pri:0, instance:RGC.RGCProject.RGCLoginTest@78c03f1f]" name="RGC_Login" duration-ms="18339" started-at="2019-07-23T13:02:37Z" finished-at="2019-07-23T13:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RGC_Login -->
-        <test-method status="PASS" signature="RGC_Recharge()[pri:1, instance:RGC.RGCProject.RGCLoginTest@1a968a59]" name="RGC_Recharge" duration-ms="12529" started-at="2019-07-23T07:50:22Z" finished-at="2019-07-23T07:50:35Z">
+        <test-method status="PASS" signature="RGC_Recharge()[pri:1, instance:RGC.RGCProject.RGCLoginTest@78c03f1f]" name="RGC_Recharge" duration-ms="16456" started-at="2019-07-23T13:02:55Z" finished-at="2019-07-23T13:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RGC_Recharge -->
